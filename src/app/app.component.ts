@@ -27,7 +27,7 @@ export class AppComponent {
     });
 
     this.http.post('https://api.bambuser.com/broadcasterEmbedUrl',
-      '{"applicationId": "bI1ca3azlqV8LDUlIZHeug", "domain": "staging.sairyo.org"}'
+      '{"applicationId": "bI1ca3azlqV8LDUlIZHeug", "domain": "iamnavino.github.io"}'
       , { headers: headers }).subscribe((data: any) => {
 
         this.embededUrl = this.sanitizer.bypassSecurityTrustResourceUrl(data.embedUrl);

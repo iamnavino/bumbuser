@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/brodcast",
+            "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "brodcast"
+    }
+  },
+  "defaultProject": "brodcast",
+  "cli": {
+    "analytics": "77da77a5-59fe-4d18-a857-44438e96f095"
+  }
 }
